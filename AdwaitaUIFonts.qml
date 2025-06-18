@@ -3,7 +3,6 @@ pragma Singleton
 import QtQuick
 
 QtObject {
-  id: fonts
 
   // Document font
   readonly property string documentFontFamily: "Adwaita Sans"
