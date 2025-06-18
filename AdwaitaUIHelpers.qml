@@ -18,3 +18,4 @@ QtObject {
 
   // Window radius
   readonly property int windowRadius: 15
+}
