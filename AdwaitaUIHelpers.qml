@@ -13,11 +13,8 @@ QtObject {
   readonly property real disabledOpacity: highContrast ? 0.40 : 0.50
 
   // Border color
+  // idk how to do this :/
+  // color-mix(in srgb, currentColor var(--border-opacity), transparent)
 
-  /* Trying to recreate the following:                                         *
-   * color-mix(in srgb, currentColor var(--border-opacity), transparent)       *
-   * "Border color is derived from the current foreground color (currentColor) *
-   * and changes between regular and high contrast modes. It should be used to *
-   * support the high contrast mode automatically." (From Libadwaita docs)     */
-
-
+  // Window radius
+  readonly property int windowRadius: 15
